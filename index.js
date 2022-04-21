@@ -164,7 +164,7 @@ function addteamMems() {
 // function to generate HTML page file using file system 
 function initPage() {
     // function to generate HTML page file using file system 
-    fs.writefileSync("./dist/index.html", Generate(teamMems), err => {
+    fs.writefileSync("../dist/index.html", Generate(teamMems), err => {
         if (err) {
             return console.error(err);
         } else {
